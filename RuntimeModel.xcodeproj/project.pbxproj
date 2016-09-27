@@ -15,6 +15,8 @@
 		A2CD4A1C1D9A64D90047B7CF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2CD4A1A1D9A64D90047B7CF /* LaunchScreen.storyboard */; };
 		A2CD4A271D9A64D90047B7CF /* RuntimeModelTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A2CD4A261D9A64D90047B7CF /* RuntimeModelTests.m */; };
 		A2CD4A321D9A64D90047B7CF /* RuntimeModelUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A2CD4A311D9A64D90047B7CF /* RuntimeModelUITests.m */; };
+		A2CD4A411D9A65240047B7CF /* NSObject+RuntimeModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A2CD4A401D9A65240047B7CF /* NSObject+RuntimeModel.m */; };
+		A2CD4A441D9A66310047B7CF /* DictModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A2CD4A431D9A66310047B7CF /* DictModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,10 @@
 		A2CD4A2D1D9A64D90047B7CF /* RuntimeModelUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RuntimeModelUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A2CD4A311D9A64D90047B7CF /* RuntimeModelUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RuntimeModelUITests.m; sourceTree = "<group>"; };
 		A2CD4A331D9A64D90047B7CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A2CD4A3F1D9A65240047B7CF /* NSObject+RuntimeModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+RuntimeModel.h"; sourceTree = "<group>"; };
+		A2CD4A401D9A65240047B7CF /* NSObject+RuntimeModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+RuntimeModel.m"; sourceTree = "<group>"; };
+		A2CD4A421D9A66310047B7CF /* DictModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DictModel.h; sourceTree = "<group>"; };
+		A2CD4A431D9A66310047B7CF /* DictModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DictModel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +111,10 @@
 				A2CD4A101D9A64D90047B7CF /* AppDelegate.m */,
 				A2CD4A121D9A64D90047B7CF /* ViewController.h */,
 				A2CD4A131D9A64D90047B7CF /* ViewController.m */,
+				A2CD4A3F1D9A65240047B7CF /* NSObject+RuntimeModel.h */,
+				A2CD4A401D9A65240047B7CF /* NSObject+RuntimeModel.m */,
+				A2CD4A421D9A66310047B7CF /* DictModel.h */,
+				A2CD4A431D9A66310047B7CF /* DictModel.m */,
 				A2CD4A151D9A64D90047B7CF /* Main.storyboard */,
 				A2CD4A181D9A64D90047B7CF /* Assets.xcassets */,
 				A2CD4A1A1D9A64D90047B7CF /* LaunchScreen.storyboard */,
@@ -275,6 +285,8 @@
 			files = (
 				A2CD4A141D9A64D90047B7CF /* ViewController.m in Sources */,
 				A2CD4A111D9A64D90047B7CF /* AppDelegate.m in Sources */,
+				A2CD4A411D9A65240047B7CF /* NSObject+RuntimeModel.m in Sources */,
+				A2CD4A441D9A66310047B7CF /* DictModel.m in Sources */,
 				A2CD4A0E1D9A64D80047B7CF /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
